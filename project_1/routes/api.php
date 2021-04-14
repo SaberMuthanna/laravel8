@@ -18,3 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get("/user", function () {
+    return "saber almuthanna";
+});
+
+route::get("/user/{name}", function($name){
+    return "My Nmae is :".$name;
+});
