@@ -20,3 +20,6 @@ Route::get('/', function () {
 Route::get("saber" , function(){
      return 10*9;
 });
+Route::get("muthanna", function () {
+    return 10 * 10;
+});
